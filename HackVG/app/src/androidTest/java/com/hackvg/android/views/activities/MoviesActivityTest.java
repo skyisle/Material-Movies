@@ -32,7 +32,7 @@ public class MoviesActivityTest extends ActivityInstrumentationTestCase2<MoviesA
     }
 
     @Test
-    public void testListGoesOverTheFold() {
+    public void testMenuItemShown() {
         openDrawer(R.id.drawer_layout);
 
         onView(withText("Check viewed"))
